@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Bankam",
+    "slug": "bankam",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.uurstudio.bankam"
+    },
+    "android": {
+      "package": "com.uurstudio.bankam",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png",
+        "backgroundColor": "#4f46e5"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "bankam",
+    "backgroundColor": "#0a0d1a",
+    "splash": {
+      "backgroundColor": "#0a0d1a",
+      "resizeMode": "contain",
+      "image": "./assets/splash-icon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
